@@ -1,5 +1,14 @@
 # DbPartioning
 
+
+* We will create two tables parent and child.
+* Provide a partition key scopeid on tables
+* Create partition tables based on  partition key.
+* Data will be inserted in to the respective partition tables based on value.
+
+
+
+
 ```
 
  CREATE TABLE IF NOT EXISTS "testme"."definition"
